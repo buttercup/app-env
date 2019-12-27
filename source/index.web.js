@@ -1,5 +1,9 @@
-const { getSharedInstance } = require("./core/singleton.js");
+const { getSharedAppEnv } = require("./native/singleton.js");
 const { applyWebConfiguration } = require("./web/index.js");
 
-const appEnv = getSharedInstance();
+const appEnv = getSharedAppEnv();
 applyWebConfiguration(appEnv);
+
+module.exports = {
+    getSharedAppEnv
+};

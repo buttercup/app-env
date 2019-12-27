@@ -1,8 +1,8 @@
-const { createAppEnv } = require("./appEnv.js");
+const { createAppEnv } = require("../core/appEnv.js");
 
 let __inst = null;
 
-function getSharedInstance() {
+function getSharedAppEnv() {
     if (!__inst) {
         __inst = createAppEnv();
     }
@@ -10,5 +10,5 @@ function getSharedInstance() {
 }
 
 module.exports = {
-    getSharedInstance
+    getSharedAppEnv
 };
