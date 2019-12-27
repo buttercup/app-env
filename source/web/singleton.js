@@ -1,12 +1,14 @@
 const { createAppEnv } = require("../core/appEnv.js");
+const { assignObjImmutableProp } = require("../core/prop.js");
 
-let __inst = null;
+const WINDOW_INSTANCE_NAME = "@@__ButtercupAppEnv";
 
 function getSharedAppEnv() {
-    if (!__inst) {
-        __inst = createAppEnv();
+    if (!window[WINDOW_INSTANCE_NAME]) {
+        const appEnv = createAppEnv();
+        assignObjImmutableProp(window, WINDOW_INSTANCE_NAME, appEnv);
     }
-    return __inst;
+    return window[WINDOW_INSTANCE_NAME];
 }
 
 module.exports = {
