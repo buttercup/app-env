@@ -1,5 +1,5 @@
 const { getCryptoResources } = require("./crypto.js");
-const { getCompressionResources } = require("../native/compression.js");
+const { getCompressionResources } = require("./compression.js");
 
 function applyWebConfiguration(appEnv) {
     appEnv.setProperties(getCryptoResources());
