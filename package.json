@@ -1,0 +1,24 @@
+{
+  "name": "@buttercup/app-env",
+  "version": "0.0.0",
+  "description": "Buttercup application environment configuration manager",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buttercup/app-env.git"
+  },
+  "keywords": [
+    "buttercup",
+    "environment",
+    "config"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buttercup/app-env/issues"
+  },
+  "homepage": "https://github.com/buttercup/app-env#readme"
+}
