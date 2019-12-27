@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/buttercup/app-env#readme",
   "dependencies": {
+    "gzip-js": "^0.3.2",
     "iocane": "^2.0.0"
   }
 }
