@@ -2,7 +2,7 @@
   "name": "@buttercup/app-env",
   "version": "0.0.0",
   "description": "Buttercup application environment configuration manager",
-  "main": "source/index.js",
+  "main": "dist/native.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/buttercup/app-env/issues"
   },
-  "homepage": "https://github.com/buttercup/app-env#readme"
+  "homepage": "https://github.com/buttercup/app-env#readme",
+  "dependencies": {
+    "iocane": "^2.0.0"
+  }
 }
