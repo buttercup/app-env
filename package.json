@@ -5,8 +5,8 @@
   "main": "source/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
+    "build:analyse": "ANALYSE=bundle webpack --config webpack.config.js --mode=production --progress",
     "dev": "webpack --config webpack.config.js --mode=development --progress --watch",
-    "dev:analyse": "ANALYSE=bundle webpack --config webpack.config.js --mode=development --progress",
     "test": "run-s test:native",
     "test:native": "nyc mocha -r test/native/index.js test/native/**/*.spec.js",
     "test:native:unit": "mocha -r test/native/index.js test/native/unit/**/*.spec.js"
