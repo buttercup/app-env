@@ -2,7 +2,7 @@
   "name": "@buttercup/app-env",
   "version": "0.0.0",
   "description": "Buttercup application environment configuration manager",
-  "main": "source/index.native.js",
+  "main": "source/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
     "dev": "webpack --config webpack.config.js --mode=development --progress --watch",
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/buttercup/app-env#readme",
   "dependencies": {
     "gzip-js": "^0.3.2",
-    "iocane": "^2.0.0"
+    "iocane": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
