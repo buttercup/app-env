@@ -11,6 +11,11 @@
     "test:native": "nyc mocha -r test/native/index.js test/native/**/*.spec.js",
     "test:native:unit": "mocha -r test/native/index.js test/native/unit/**/*.spec.js"
   },
+  "files": [
+    "source/**/*.js",
+    "native/index.js",
+    "web/index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/buttercup/app-env.git"
