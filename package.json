@@ -8,6 +8,7 @@
     "build:analyse": "ANALYSE=bundle webpack --config webpack.config.js --mode=production --progress",
     "build:web:test": "webpack --config webpack.config.test.js --mode=development",
     "dev": "webpack --config webpack.config.js --mode=development --progress --watch",
+    "prepublishOnly": "npm run build",
     "test": "run-s test:native test:web",
     "test:ci": "run-s test:native",
     "test:ci:web": "run-s test:web",
