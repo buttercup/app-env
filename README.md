@@ -72,3 +72,4 @@ The following properties should be specified:
 | `compression/v1/decompressText` | Method for decompressing text -> text.  |
 | `crypto/v1/decryptText`       | Decryption method for decrypting text.    |
 | `crypto/v1/encryptText`       | Encryption method for encrypting text.    |
+| `crypto/v1/setDerivationRounds` | Set the number of derivation rounds to use for key derivation. |
