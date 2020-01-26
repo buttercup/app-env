@@ -12,7 +12,9 @@ if (process.env.ANALYSE === "bundle") {
 
 const configs = [
     {
-        entry: path.join(SOURCE, "index.web.js"),
+        entry: {
+            web: path.join(SOURCE, "index.web.js")
+        },
 
         module: {
             rules: [
@@ -42,7 +44,9 @@ const configs = [
         plugins
     },
     {
-        entry: path.join(SOURCE, "index.native.js"),
+        entry: {
+            node: path.join(SOURCE, "index.native.js")
+        },
 
         module: {
             rules: [
