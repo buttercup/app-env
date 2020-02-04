@@ -38,7 +38,7 @@
   "homepage": "https://github.com/buttercup/app-env#readme",
   "dependencies": {
     "gzip-js": "^0.3.2",
-    "iocane": "^3.0.0",
+    "iocane": "^4.0.0",
     "webdav": "^3.0.0"
   },
   "devDependencies": {
