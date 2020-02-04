@@ -1,5 +1,10 @@
 # App-Env Changelog
 
+## v0.3.0
+_2020-02-04_
+
+ * Buffer encryption/decryption (iocane v4)
+
 ## v0.2.0
 _2020-01-26_
 
