@@ -1,5 +1,10 @@
 # App-Env Changelog
 
+## v0.4.0
+_2020-02-05_
+
+ * WebDAV upgrade (parsing improvements)
+
 ## v0.3.0
 _2020-02-04_
 

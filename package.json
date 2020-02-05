@@ -39,7 +39,7 @@
   "dependencies": {
     "gzip-js": "^0.3.2",
     "iocane": "^4.0.0",
-    "webdav": "^3.0.0"
+    "webdav": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
