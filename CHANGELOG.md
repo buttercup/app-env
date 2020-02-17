@@ -1,5 +1,10 @@
 # App-Env Changelog
 
+## v0.5.0
+_2020-02-17_
+
+ * WebDAV upgrade (`exists` method)
+
 ## v0.4.0
 _2020-02-05_
 
