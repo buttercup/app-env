@@ -3,6 +3,10 @@
 
 [![Build Status](https://travis-ci.org/buttercup/app-env.svg?branch=master)](https://travis-ci.org/buttercup/app-env)
 
+## :warning: Deprecated
+
+This repository is deprecated since [Buttercup core](https://github.com/buttercup/buttercup-core) version 4, as it is now included in the core library. It is no longer required to include this library as its functionality can be found in the [`buttercup`](https://www.npmjs.com/package/buttercup) dependency.
+
 ## About
 
 Buttercup is a cross-platform password manager, and in being so requires vastly different configurations for each platform it runs on. Take for instance Buttercup for Desktop and the browser extension - one is Node (native) and the other is web-based. This project provides a method to set environment-specific tools and methods (for crypto, for instance). It also provides some presets for native and web.
